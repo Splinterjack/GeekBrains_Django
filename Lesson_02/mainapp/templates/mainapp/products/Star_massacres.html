@@ -1,23 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Book store</title>
-        <link rel="stylesheet" type="text/css" href="/static/mainapp/css/style.css">
-        <link rel="stylesheet" type="text/css" href="/static/mainapp/css/table.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="header">
-                <img src="/static/mainapp/img/logo.jpg">
-                <ul class="menu">
-                    <li><a href="/contacts/">Контакты</a></li>
-                    <li><a href="/products/">Каталог</a></li>
-                    <li><a href="/">Главная</a></li>
-                </ul>
-            </div>
-            <hr>
-            <h2>Книга "Звездные бойни"</h2>
+{% extends 'mainapp/base.html' %}
+{% block content %}
+            <h3>Книга "Звездные бойни"</h3>
             <a href="/static/mainapp/img/book_star_wars.jpg" target="_blank">
                 <img class="cover" src="/static/mainapp/img/book_star_wars.jpg" height="400" alt="Звездные бойни">
             </a>
@@ -103,10 +86,4 @@
                 каково это — быть на службе у вселенской тирании, оставаясь верноподданным зловещего императора галактик,<br>
                 сражаться против храбрых повстанцев…
             </p>
-            <hr>
-            <div class="footer">
-                &copy; Все права защищены.
-            </div>
-        </div>
-    </body>
-</html>
+{% endblock %}

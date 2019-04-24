@@ -1,23 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Book store</title>
-        <link rel="stylesheet" type="text/css" href="/static/mainapp/css/style.css">
-        <link rel="stylesheet" type="text/css" href="/static/mainapp/css/table.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="header">
-                <img src="/static/mainapp/img/logo.jpg">
-                <ul class="menu">
-                    <li><a href="/contacts/">Контакты</a></li>
-                    <li><a href="/products/">Каталог</a></li>
-                    <li><a href="/">Главная</a></li>
-                </ul>
-            </div>
-            <hr>
-            <h2>Книга "Гарри Поттер и Философский камень"</h2>
+{% extends 'mainapp/base.html' %}
+{% block content %}
+            <h3>Книга "Гарри Поттер и Философский камень"</h3>
             <a href="/static/mainapp/img/book_Harry_Potter_01.jpg" target="_blank">
                 <img class="cover" src="/static/mainapp/img/book_Harry_Potter_01.jpg" height="400" alt="Гарри Поттер и Философский камень">
             </a>
@@ -111,10 +94,4 @@
                 с невероятными новостями: Гарри Поттер – волшебник, и его ждет место в школе колдовства<br>
                 и ведьминских искусств «Хогварц». Потрясающие приключения начинаются!
             </p>
-            <hr>
-            <div class="footer">
-                &copy; Все права защищены.
-            </div>
-        </div>
-    </body>
-</html>
+{% endblock %}

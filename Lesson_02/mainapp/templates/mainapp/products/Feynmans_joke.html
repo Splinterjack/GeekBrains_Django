@@ -1,22 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Book store</title>
-        <link rel="stylesheet" type="text/css" href="/static/mainapp/css/style.css">
-        <link rel="stylesheet" type="text/css" href="/static/mainapp/css/table.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="header">
-                <img src="/static/mainapp/img/logo.jpg">
-                <ul class="menu">
-                    <li><a href="/contacts/">Контакты</a></li>
-                    <li><a href="/products/">Каталог</a></li>
-                    <li><a href="/">Главная</a></li>
-                </ul>
-            </div>
-            <hr>
+{% extends 'mainapp/base.html' %}
+{% block content %}
             <h3>Книга "Вы, конечно, шутите, мистер Фейнман!"</h3>
             <a href="/static/mainapp/img/book_feynmans_joke.jpg" target="_blank">
                 <img class="cover" src="/static/mainapp/img/book_feynmans_joke.jpg" height="400" alt="Вы, конечно, шутите, мистер Фейнман!">
@@ -108,10 +91,4 @@
                 Автобиография великого ученого захватывает сильнее, чем приключенческий роман.<br>
                 Это одна из немногих книг, которые навсегда остаются в памяти каждого, кто их прочитал.
             </p>
-            <hr>
-            <div class="footer">
-                &copy; Все права защищены.
-            </div>
-        </div>
-    </body>
-</html>
+{% endblock %}

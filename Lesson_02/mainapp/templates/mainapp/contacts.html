@@ -1,24 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title>Book store</title>
-    <link rel="stylesheet" type="text/css" href="/static/mainapp/css/style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <img src="/static/mainapp/img/logo.jpg">
-            <ul class="menu">
-                <li><a href="/contacts/">Контакты</a></li>
-                <li><a href="/products/">Каталог</a></li>
-                <li><a href="/">Главная</a></li>
-            </ul>
-        </div>
-        <hr>
-        <h2>
+{% extends 'mainapp/base.html' %}
+{% block content %}
+        <h3>
             <p>Контакты</p>
-        </h2>
+        </h3>
             <fieldset>
                 <legend><h3>Напишите нам:</h3></legend>
                 <form method="POST">
@@ -38,10 +22,5 @@
             Адрес: 192102б, СПб, Бухарестская ул., 32<br>
             E-mail: info@bookstore.com<br>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2001.9402086078874!2d30.36793584453035!3d59.8833419783377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46962ff3d9e0380f%3A0x85f5a92c4f6d97db!2z0JHRg9GF0LDRgNC10YHRgtGB0LrQsNGPINGD0LsuLCAzMiwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5MjEwMg!5e0!3m2!1sru!2sru!4v1544657996867" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        <hr>
-        <div class="footer">
-            &copy; Все права защищены.
-        </div>
-    </div>
-</body>
-</html>
+{% endblock %}
+
