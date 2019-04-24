@@ -1,0 +1,162 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+.header {
+    background-image: url(/static/mainapp/img/header.jpg);
+    height: 150px;
+}
+
+.header img {
+    padding-left: 20px;
+    float: left;
+    width: 150px;
+}
+
+ul a {
+    font-size: 13pt;
+    color: rgb(76, 42, 168);
+    text-decoration: none;
+}
+
+.header ul li {
+    display: inline-block;
+    padding: 0px 5px;
+    float: right;
+    background: white
+}
+
+h1 {
+    font-family: Arial;
+}
+
+.menu {
+    list-style-type: none;
+    font-family: Arial, serif;
+    font-variant: small-caps;
+}
+
+.menu li a:hover {
+    color: red
+}
+
+.buy {
+    
+}
+
+h2 {
+    color: black;
+    font-family: Arial, serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+#chars {
+    list-style-image: url(../images/star.png);
+    line-height: 26px;
+}
+
+.about {
+    float: right;
+}
+
+.about p {
+    color: #707070;
+    font-family: Arial, serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+
+}
+
+.about p::first-letter {
+    color: rgb(3, 25, 153);
+    font-size: 20px;
+}
+
+#full_about {
+    padding: 10px;
+    color: #484343;
+    font-family: Arial, serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: left;
+    line-height: 24px;
+}
+
+#full_about::first-letter {
+    color: rgb(3, 25, 153);
+    font-size: 26px;
+}
+
+input[type= "text"] {
+    width: 250px;
+}
+
+label {
+    font-family: Arial, serif;
+    font-size: 9pt;
+    line-height: 24px;
+}
+
+input[id= "name"] {
+    text-transform: capitalize;
+}
+
+input[id= "theme"] {
+    text-transform: capitalize;
+}
+
+textarea[id="message"] {
+    text-transform: capitalize;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+}
+
+input[type= "submit"] {
+    height: 30px;
+    width: 100px;
+}
+
+input[label= "Отправить"] {
+    text-transform: uppercase
+}
+
+fieldset {
+    width: 50%;
+    border:2px solid black
+}
+
+legend h3 {
+    font-size: 12pt;
+    color: rgb(248, 29, 14);
+}
+
+.e-mail:focus{
+    background:lightblue;
+    color:blue
+}
+
+.cover {
+    height: 300px;
+    border: 7px double black;
+}
+
+.cover:hover {
+    border: 7px double transparent;
+}
+
+.footer {
+    text-align: right;
+    padding: 20px
+}
