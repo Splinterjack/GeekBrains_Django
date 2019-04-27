@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d61fc804-22b9-4e6d-b68d-e2d7a78bbae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/includes/inc_menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_02/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_02/geekshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_02/mainapp/static/mainapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_02/mainapp/static/mainapp/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/menu.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/products/Feynmans_joke.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/products/Feynmans_joke.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/products/Harry_Potter_01.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/products/Harry_Potter_01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/products/Star_massacres.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/products/Star_massacres.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_02/mainapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_02/mainapp/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +23,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,23 +34,30 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Lesson_02/.gitignore" />
-        <option value="$PROJECT_DIR$/Lesson_02/geekshop/settings.py" />
         <option value="$PROJECT_DIR$/Lesson_02/geekshop/wsgi.py" />
         <option value="$PROJECT_DIR$/Lesson_02/manage.py" />
-        <option value="$PROJECT_DIR$/Lesson_02/mainapp/static/mainapp/css/style.css" />
-        <option value="$PROJECT_DIR$/Lesson_02/mainapp/views.py" />
-        <option value="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/index.html" />
+        <option value="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/menu.html" />
+        <option value="$PROJECT_DIR$/Lesson_02/geekshop/settings.py" />
         <option value="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/contacts.html" />
         <option value="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/catalog.html" />
+        <option value="$PROJECT_DIR$/Lesson_02/mainapp/static/mainapp/css/style.css" />
         <option value="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/products/Feynmans_joke.html" />
         <option value="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/products/Harry_Potter_01.html" />
         <option value="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/products/Star_massacres.html" />
-        <option value="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/menu.html" />
+        <option value="$PROJECT_DIR$/Lesson_02/geekshop/urls.py" />
+        <option value="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/includes/menu.html" />
+        <option value="$PROJECT_DIR$/Lesson_02/mainapp/views.py" />
+        <option value="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/index.html" />
         <option value="$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/base.html" />
       </list>
     </option>
@@ -103,6 +114,15 @@
               <item name="mainapp" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="mainapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeekBrains_Django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeekBrains_Django" type="462c0819:PsiDirectoryNode" />
+              <item name="Lesson_02" type="462c0819:PsiDirectoryNode" />
+              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,6 +208,14 @@
       <option name="presentableId" value="Default" />
       <updated>1556134492775</updated>
     </task>
+    <task id="LOCAL-00001" summary="First steps">
+      <created>1556142718571</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556142718571</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -198,30 +226,27 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First steps" />
+    <option name="LAST_COMMIT_MESSAGE" value="First steps" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Lesson_02/geekshop/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson_02/geekshop/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1807">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson_02/geekshop/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -254,10 +279,10 @@
     <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/static/mainapp/img/header.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/static/mainapp/css/style.css">
+    <entry file="file://$PROJECT_DIR$/Lesson_02/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -268,69 +293,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson_02/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson_02/geekshop/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/catalog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/products/Feynmans_joke.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="93" column="14" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/products/Harry_Potter_01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="96" column="14" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/products/Star_massacres.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -338,10 +300,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/static/mainapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="106" column="22" lean-forward="true" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/catalog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/products/Feynmans_joke.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="57" />
+          <folding>
+            <element signature="e#1069#1075#1" expanded="true" />
+            <element signature="e#1075#1081#0" expanded="true" />
+            <element signature="e#1081#1087#0" expanded="true" />
+            <element signature="e#1087#1093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/products/Harry_Potter_01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding>
+            <element signature="e#963#969#0" expanded="true" />
+            <element signature="e#969#975#0" expanded="true" />
+            <element signature="e#975#981#0" expanded="true" />
+            <element signature="e#981#987#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/products/Star_massacres.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+          <folding>
+            <element signature="e#853#859#0" expanded="true" />
+            <element signature="e#859#865#0" expanded="true" />
+            <element signature="e#865#871#0" expanded="true" />
+            <element signature="e#871#877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_02/geekshop/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_02/geekshop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#779#785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_02/mainapp/templates/mainapp/includes/inc_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <caret line="2" column="34" selection-start-line="1" selection-start-column="25" selection-end-line="2" selection-end-column="34" />
         </state>
       </provider>
     </entry>

@@ -96,6 +96,18 @@ h2 {
     font-size: 26px;
 }
 
+
+.product_properties tbody td:first-child {
+    background-image: url(/static/mainapp/img/star.png);
+    background-repeat: no-repeat;
+}
+
+.product_properties tbody td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 input[type= "text"] {
     width: 250px;
 }

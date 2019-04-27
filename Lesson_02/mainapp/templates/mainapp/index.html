@@ -1,10 +1,15 @@
 {% extends 'mainapp/base.html' %}
+{% block title %}
+            <title>Главная</title>
+{% endblock %}
 {% block content %}
         <h3>
-            <p>Главная</p>
+            Главная
+            <div>Hello, {{ name|title }}!</div>
         </h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
         Facilis voluptas provident quisquam nulla, maiores qui quo
         molestias tempore aperiam consequatur ipsa quia eum aut quod,
         delectus ipsam, quas sunt neque.</p>
 {% endblock %}
+<div>Hello, {{ name|title }}!</div>

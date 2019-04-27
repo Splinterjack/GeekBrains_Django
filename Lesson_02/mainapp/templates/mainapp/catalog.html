@@ -1,11 +1,15 @@
 {% extends 'mainapp/base.html' %}
+{% load static %}
+{% block title %}
+            <title>Каталог</title>
+{% endblock %}
 {% block content %}
         <h3>
             <p>Каталог</p>
         </h3>
             <p>
                 <a href="/books/star_massacres/">
-                <img src="/static/mainapp/img/book_star_wars.jpg" height="256" alt="Звездные бойни">
+                <img src="{% static 'mainapp/img/book_star_wars.jpg' %}" height="256" alt="Звездные бойни">
                 </a>
             </p>
             <p>
@@ -14,7 +18,7 @@
             </p>
             <p>
                 <a href="/books/feynmans_joke/">
-                <img src="/static/mainapp/img/book_Feynmans_joke.jpg" height="256" alt="Вы, конечно, шутите,
+                <img src="{% static 'mainapp/img/book_Feynmans_joke.jpg' %}" height="256" alt="Вы, конечно, шутите,
                 мистер Фейнман!">
                 </a>
             </p>
@@ -24,7 +28,7 @@
             </p>
             <p>
                 <a href="/books/harry_potter_01/">
-                <img src="/static/mainapp/img/book_Harry_Potter_01.jpg" height="256" alt="Гарри Поттер и Философский камень">
+                <img src="{% static 'mainapp/img/book_Harry_Potter_01.jpg' %}" height="256" alt="Гарри Поттер и Философский камень">
                 </a>
             </p>
             <p>    

@@ -2,7 +2,8 @@ from django.shortcuts import render
 
 
 def main(request):
-    return render(request, 'mainapp/index.html')
+    context = {'name': 'guest'}
+    return render(request, 'mainapp/index.html', context)
 
 
 def contacts(request):
